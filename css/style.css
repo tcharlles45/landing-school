@@ -1,3 +1,7 @@
 @import "./reset.css";
 @import "./global.css";
+@import "./componentes.css";
+
 @import "./header.css";
+@import "./top-cta.css";
+@import "./aulas-video.css";

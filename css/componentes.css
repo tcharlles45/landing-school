@@ -1,0 +1,21 @@
+.btn01 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff6551;
+  text-transform: uppercase;
+}
+
+.btn02 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ff6551 ;
+  color: #ff6551;
+  background-color: #2435a1;
+}
