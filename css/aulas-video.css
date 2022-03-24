@@ -1,0 +1,79 @@
+.aulas-video {
+  margin-bottom: 140px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.video-img {
+  max-width: 500px;
+}
+
+.video-texto {
+  position: relative;
+  max-width: 400px;
+}
+
+.video-texto h3::before {
+  content: "";
+  background-color: #e74040;
+  display: block;
+  position: absolute;
+  height: 7px;
+  width: 90px;
+  top: -30px;
+}
+
+.video-texto p {
+  margin: 20px 0 40px 0;
+}
+
+/*REVIEWS*/
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.review-item {
+  text-align: center;
+}
+
+.review-item h4 {
+  color: #FF6551;
+  font-size: 58px;
+  line-height: 80px;
+  font-weight: 700;
+}
+
+.review-item p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+
+/*RESPONSIVO*/
+
+@media (max-width: 1060px) {
+  .aulas-video {
+    margin-bottom: 60px;
+  }
+
+  .reviews {
+    padding: 40px;
+    gap: 40px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .aulas-video {
+    padding: 40px;
+    margin-bottom: 20px;
+  }
+}

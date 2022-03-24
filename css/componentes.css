@@ -19,3 +19,14 @@
   color: #ff6551;
   background-color: #2435a1;
 }
+
+.btn03 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ff6551 ;
+  color: #ff6551;
+}
+
