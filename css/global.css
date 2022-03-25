@@ -1,7 +1,6 @@
 header,
 body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  
 }
 
 img {
@@ -15,7 +14,10 @@ img {
 
 .container {
   max-width: 1050px;
-  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Tipografia*/
@@ -35,5 +37,5 @@ img {
 }
 
 body {
-  height: 2000px;
+  height: 3000px;
 }
