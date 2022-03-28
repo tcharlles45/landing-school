@@ -1,0 +1,50 @@
+.experts-info span {
+  color: #ff6551;
+  font-weight: 700;
+}
+
+.experts-info p {
+  max-width: 600px;
+}
+
+/*EXPERTS REVIEW*/
+
+.experts-review {
+  margin-top: 100px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  text-align: center;
+}
+
+.expert-img img {
+  border-radius: 50%;
+  max-width: 128px;
+  margin: 0 auto;
+}
+
+.experts-item > p {
+  color: #737373;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.experts-star {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.experts-item h1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #252b42;
+}
+
+@media (max-width: 500px){
+  .experts-review {
+    flex-wrap: wrap;
+  }
+
+}
