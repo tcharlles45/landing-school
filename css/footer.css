@@ -91,6 +91,25 @@
   }
 }
 
+.footer-lista {
+  position: relative;
+}
+
+.footer-lista a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #ff6551;
+  transition: 0.1s;
+  position: absolute;
+  margin-top: 1px;
+}
+
+.footer-lista a:hover::after {
+  width: 80%;
+}
+
 @media (max-width: 320px) {
   .footer {
     grid-template-columns: 1fr;
