@@ -1,0 +1,54 @@
+.newsletter-intro {
+  margin: 100px auto 60px auto;
+  text-align: center;
+  max-width: 700px;
+}
+
+.newsletter-intro span {
+  color: #ff6551;
+  font-weight: 700;
+}
+
+.newsletter-intro p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+  font-weight: 400;
+}
+
+.newsletter-form {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.newsletter-form input {
+  margin: 0 auto;
+  padding: 10px 300px 10px 10px;
+  background-color: #f9f9f9;
+  border-color: #e6e6e6;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 0 0 5px;
+  line-height: 20px;
+}
+
+.newsletter-form button {
+  padding: 11px;
+  border: none;
+  border-radius: 0px 5px 5px 0;
+  line-height: 20px;
+  background-color: #ff6551;
+  color: white;
+}
+
+@media (max-width: 660px) {
+  .newsletter-form input {
+    padding: 10px 100px 10px 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  .newsletter-form input {
+    padding: 10px 20px 10px 10px;
+  }
+}
